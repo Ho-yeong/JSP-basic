@@ -1,0 +1,217 @@
+<html>
+  <head>
+    <title>HTMl_Example.html</title>
+    <style type="text/css">
+      a:link {
+        text-decoration: none;
+        color: navy;
+      } /* 하이퍼링크가 설정된 부분은 링크 밑줄 없애기 */
+
+      a:active {
+        text-decoration: none;
+        color: YellowGreen;
+      } /* 활성 링크의 밑줄 없애기, 색상 : YellowGreen 설정 */
+
+      a:visited {
+        text-decoration: none;
+        color: SteelBlue;
+      } /* 한 번 방문한 사이트의 링크 밑줄 없애기 */
+
+      a:hover {
+        text-decoration: none;
+        color: Crimson;
+      } /* 링크에 마우스를 올렸을 경우 링크 밑줄 없애기 , 색상 설정*/
+
+      img.a {
+        text-decoration: none;
+        width: 65px;
+        height: 20px;
+        align: left;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table border="1" cellspacing="0" align="center">
+      <td>
+        <ul align="left">
+          <h3><b>검색엔진의 종류</b></h3>
+          <li>
+            <a href="https:www.google.co.kr" target="_blank" title="Google">
+              구글
+            </a>
+          </li>
+          <li>
+            <a href="https:www.daum.net" target="_blank" title="Daum"> 다음 </a>
+          </li>
+          <li>
+            <a href="https:www.naver.com" target="_blank" title="Naver">
+              네이버
+            </a>
+          </li>
+        </ul>
+      </td>
+    </table>
+    <br /><br /><br />
+
+    <table border="1" cellspacing="0" align="center">
+      <tr>
+        <td colspan="2" align="center">
+          <b>추억의 영화</b>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <font face="궁서체" color="blue">벤허</font>
+        </td>
+        <td>
+          <a
+            name="벤허"
+            href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=10058"
+            target="_blank"
+          >
+            <img
+              src="https://movie-phinf.pstatic.net/20190319_197/1552961388729ud2LG_JPEG/movie_image.jpg"
+              width="150"
+              height="200"
+              title="벤허"
+              alt="벤허"
+            />
+          </a>
+        </td>
+      </tr>
+
+      <tr align="center">
+        <td>
+          <font face="궁서체" color="blue">로마의 휴일</font>
+        </td>
+        <td>
+          <a
+            href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=10101"
+            target="_blank"
+          >
+            <img
+              src="https://movie-phinf.pstatic.net/20111221_184/1324464709015ggkNw_JPEG/movie_image.jpg"
+              width="150"
+              height="200"
+              title="로마의 휴일"
+              alt="로마의 휴일"
+            />
+          </a>
+        </td>
+      </tr>
+      <tr align="center">
+        <td>
+          <font face="궁서체" color="blue">노인과 바다</font>
+        </td>
+        <td>
+          <a
+            name="노인과 바다"
+            href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=29648"
+            target="_blank"
+          >
+            <img
+              src="https://movie-phinf.pstatic.net/20180828_264/1535447349287eRH8p_JPEG/movie_image.jpg"
+              width="150"
+              height="200"
+              title="노인과바다"
+              alt="노인과바다"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+
+    <br /><br /><br />
+
+    <table border="1" cellspacing="0" align="center">
+      <td>
+        <p align="left">
+          <b><font size="5"> 폼 만들기</font></b>
+        </p>
+        <form name="login" method="post">
+          사용자 ID : <input type="text" name="id" size="10" /> 비밀번호 :
+          <input type="password" name="pass" size="10" />
+          <p>
+            <input type="reset" name="reset" value="다시 입력" />
+            <input type="submit" name="submit" value="전송" />
+          </p>
+        </form>
+        <p align="left">
+          <b><font size="5">콤보 박스 만들기</font></b>
+        </p>
+        <p>
+          <select name="theme" size="1">
+            <option selected value="theme1">장르를 선택하세요</option>
+            <option value="theme2">로맨스</option>
+            <option value="theme3">액션</option>
+            <option value="theme4">코믹</option>
+            <option value="theme5">스릴러</option>
+            <option value="theme6">다큐맨터리</option>
+            <option value="theme7">애니매이션</option>
+          </select>
+          <br /><br />
+        </p>
+      </td>
+    </table>
+    <br /><br /><br /><br />
+
+    <ol type="A">
+      <li>
+        <h3><b>검색엔진의 종류</b></h3>
+        <ul type="square">
+          <b>
+            <li><a href="https://www.google.com" target="_blank">구글</a></li>
+            <li>
+              <a href="https://www.daum.net" target="_blank">다음</a>
+            </li>
+            <li><a href="https://www.naver.com" target="_blank">네이버</a></li>
+          </b>
+        </ul>
+      </li>
+      <br /><br />
+      <li>
+        <h3><b>소셜 커머스</b></h3>
+        <ol type="I">
+          <b>
+            <li>
+              <a
+                href="http://www.tmon.co.kr/planning/PLAN_Vb46Un6fWE?utm_source=naver&utm_medium=display&utm_term=&utm_content=&utm_campaign=%EB%84%A4%EC%9D%B4%EB%B2%84_%EB%B8%8C%EB%9E%9C%EB%93%9C%EA%B2%80%EC%83%89"
+                target="_blank"
+                title="티몬"
+              >
+                <img
+                  src="https://img3.tmon.kr/cdn3/viewAdmin/image/10142/6698/logo_3c57b.gif"
+                  width="100"
+                />티몬</a
+              >
+            </li>
+            <li>
+              <a href="https://www.coupang.com/" target="_blank" title="쿠팡">
+                <img
+                  src="https://image12.coupangcdn.com/image/coupang/common/logo_coupang_w350.png"
+                  width="100"
+                />쿠팡</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://front.wemakeprice.com/main"
+                target="_blank"
+                title="위메프"
+              >
+                <img
+                  src="https://view01.wemep.co.kr/wmp-main/15/201903/20/pmlm_n8cyjwtciedn.png"
+                  width="100"
+                  height="25"
+                />위메프</a
+              >
+            </li>
+          </b>
+        </ol>
+      </li>
+    </ol>
+    <br /><br /><br /><br />
+  </body>
+</html>
